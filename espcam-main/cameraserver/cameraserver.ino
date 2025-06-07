@@ -4,9 +4,9 @@
 #include "esp_wpa2.h"
  
 //Identity for user with password related to his realm (organization)
-#define EAP_IDENTITY "elyashossaini@uvic.ca" //nickname@example.com, at some organizations should work nickname only without realm, but it is not recommended
-#define EAP_PASSWORD "Momandad_123" //password for eduroam (netlink) account
-#define EAP_USERNAME "elyashossaini" // the Username is the same as the Identity in most eduroam networks.
+#define EAP_IDENTITY "" //nickname@example.com, at some organizations should work nickname only without realm, but it is not recommended
+#define EAP_PASSWORD "" //password for eduroam (netlink) account
+#define EAP_USERNAME "" // the Username is the same as the Identity in most eduroam networks.
 const char* ssid = "eduroam"; // eduroam SSID
 
 //for local wifi
